@@ -39,13 +39,9 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold uppercase leading-[0.95] tracking-tight"
+            className="text-5xl md:text-7xl lg:text-8xl font-bold uppercase leading-[0.95] tracking-tight sm:text-4xl font-sans text-left border-dashed opacity-90 shadow-md"
           >
-            Sweat. Lift.
-            <br />
-            <span className="text-gradient-neon text-glow">Dominate</span>
-            <br />
-            The Iron.
+            BEST FITNESS GYM
           </motion.h1>
 
           <motion.p
