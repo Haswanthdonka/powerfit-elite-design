@@ -33,9 +33,9 @@ export const Footer = () => {
         <div>
           <h4 className="font-bold uppercase tracking-wider text-sm">Visit</h4>
           <ul className="mt-4 space-y-3 text-sm text-muted-foreground">
-            <li className="flex gap-2"><MapPin className="w-4 h-4 text-neon shrink-0 mt-0.5" /> Visakhapatnam, Andhra Pradesh</li>
-            <li className="flex gap-2"><Phone className="w-4 h-4 text-neon shrink-0 mt-0.5" /> +91 00000 00000</li>
-            <li className="flex gap-2"><Mail className="w-4 h-4 text-neon shrink-0 mt-0.5" /> hello@powerfit.in</li>
+            <li className="flex gap-2"><MapPin className="w-4 h-4 text-neon shrink-0 mt-0.5" /> MVP Colony, Visakhapatnam, AP 530017</li>
+            <li className="flex gap-2"><Phone className="w-4 h-4 text-neon shrink-0 mt-0.5" /> +91 98765 43210</li>
+            <li className="flex gap-2"><Mail className="w-4 h-4 text-neon shrink-0 mt-0.5" /> info@powerfitvizag.com</li>
           </ul>
         </div>
 

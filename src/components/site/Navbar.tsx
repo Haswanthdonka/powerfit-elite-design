@@ -5,9 +5,10 @@ import { Button } from "@/components/ui/button";
 const links = [
   { href: "#about", label: "About" },
   { href: "#services", label: "Services" },
+  { href: "#pricing", label: "Pricing" },
   { href: "#why", label: "Why Us" },
   { href: "#testimonials", label: "Results" },
-  { href: "#contact", label: "Contact" },
+  { href: "#contact-form", label: "Contact" },
 ];
 
 export const Navbar = () => {
