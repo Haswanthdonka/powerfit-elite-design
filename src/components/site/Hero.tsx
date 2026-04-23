@@ -39,9 +39,9 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="text-5xl md:text-7xl lg:text-8xl font-bold uppercase leading-[0.95] tracking-tight sm:text-4xl font-sans text-left border-dashed opacity-90 shadow-md"
+            className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold uppercase leading-[1.05] tracking-tight text-left border-2 border-dashed border-neon/40 rounded-xl px-4 py-3 sm:px-6 sm:py-4 inline-block bg-background/30 backdrop-blur-sm shadow-[0_0_40px_-10px_hsl(var(--neon)/0.4)]"
           >
-            BEST FITNESS GYM
+            BEST <span className="text-gradient-neon text-glow">FITNESS</span> GYM
           </motion.h1>
 
           <motion.p
