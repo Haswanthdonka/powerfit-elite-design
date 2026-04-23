@@ -15,12 +15,15 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        hero: "bg-neon text-primary-foreground font-bold uppercase tracking-wider hover:bg-neon-soft shadow-[var(--shadow-glow)] hover:shadow-[var(--shadow-neon)] hover:-translate-y-0.5 transition-all",
+        outlineNeon: "border border-neon/60 bg-transparent text-neon font-bold uppercase tracking-wider hover:bg-neon/10 hover:border-neon hover:shadow-[var(--shadow-glow)] transition-all",
       },
       size: {
         default: "h-10 px-4 py-2",
         sm: "h-9 rounded-md px-3",
         lg: "h-11 rounded-md px-8",
         icon: "h-10 w-10",
+        xl: "h-14 rounded-lg px-8 text-base",
       },
     },
     defaultVariants: {
