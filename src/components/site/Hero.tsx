@@ -41,11 +41,11 @@ export const Hero = () => {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold uppercase leading-[0.95] tracking-tight"
           >
-            Forge The
+            Sweat. Lift.
             <br />
-            <span className="text-gradient-neon text-glow">Strongest</span>
+            <span className="text-gradient-neon text-glow">Dominate</span>
             <br />
-            Version Of You
+            The Iron.
           </motion.h1>
 
           <motion.p
