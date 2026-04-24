@@ -9,9 +9,9 @@ import { toast } from "@/hooks/use-toast";
 
 const info = [
   { icon: MapPin, label: "Location", value: "MVP Colony, Visakhapatnam, AP 530017" },
-  { icon: Phone, label: "Call Us", value: "7095065498" },
-  { icon: Phone, label: "WhatsApp", value: "7095065498" },
-  { icon: Mail, label: "Email", value: "jaydonka21@gmail.com" },
+  { icon: Phone, label: "Call Us", value: "+91 84729 16385" },
+  { icon: Phone, label: "WhatsApp", value: "+91 97246 53108" },
+  { icon: Mail, label: "Email", value: "contact.powerfit.vizag@gmail.com" },
   { icon: Clock, label: "Hours", value: "Mon–Sat 5AM–11PM · Sun 6AM–2PM" },
 ];
 
