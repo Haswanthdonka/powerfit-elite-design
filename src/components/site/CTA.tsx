@@ -29,11 +29,13 @@ export const CTA = () => {
               No more "tomorrow." Walk in, train hard, walk out unstoppable.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="hero" size="xl">
-                Join Now <ArrowRight className="ml-1" />
+              <Button variant="hero" size="xl" asChild>
+                <a href="#contact-form">
+                  Join Now <ArrowRight className="ml-1" />
+                </a>
               </Button>
-              <Button variant="outlineNeon" size="xl">
-                Book Free Trial
+              <Button variant="outlineNeon" size="xl" asChild>
+                <a href="#contact-form">Book Free Trial</a>
               </Button>
             </div>
           </div>
