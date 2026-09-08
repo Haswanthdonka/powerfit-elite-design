@@ -26,7 +26,7 @@ const NotFound = () => {
       const prev = el.getAttribute("content");
       el.setAttribute("content", value);
       return () => {
-        if (prev !== null) el!.setAttribute("content", prev);
+        if (prev !== null) el.setAttribute("content", prev);
       };
     };
 
